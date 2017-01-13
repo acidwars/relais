@@ -4,8 +4,8 @@ import time
 import sys
 
 print("""
-      [+] 1 for turning the light on
-      [+] 0 for turning it off!
+      [+] "on" to turn the lights on
+      [+] "off" to turn them off!
       """)
 if sys.argv[1] == "1":
     subprocess.call(["./relais", "on"], shell=False)
